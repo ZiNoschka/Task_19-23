@@ -1,5 +1,5 @@
 ﻿{
-   Console.Write("Введите пятизначное число: ");
+        Console.Write("Введите пятизначное число: ");
         int number = int.Parse(Console.ReadLine());
 
         int digit1 = number / 10000;
@@ -16,5 +16,4 @@
         {
             Console.WriteLine("Число не является палиндромом.");
         }
-    
-}
+    }
